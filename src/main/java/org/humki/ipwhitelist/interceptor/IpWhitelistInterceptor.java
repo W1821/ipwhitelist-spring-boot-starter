@@ -1,8 +1,8 @@
-package org.leesin.ipwhitelist.interceptor;
+package org.humki.ipwhitelist.interceptor;
 
 import lombok.extern.slf4j.Slf4j;
-import org.leesin.ipwhitelist.config.IpWhitelistConfig;
-import org.leesin.ipwhitelist.util.IpUtil;
+import org.humki.ipwhitelist.config.IpWhitelistConfig;
+import org.humki.ipwhitelist.util.IpUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -66,7 +66,7 @@ public class IpWhitelistInterceptor implements HandlerInterceptor {
         boolean allow = ipWhitelistAllowList.contains(ip);
         if (!allow) {
             try {
-                response.sendError(404, "无权限");
+                response.sendError(401, "无权限");
             } catch (IOException ignored) {
             }
         }

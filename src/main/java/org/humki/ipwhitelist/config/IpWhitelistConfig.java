@@ -1,4 +1,4 @@
-package org.leesin.ipwhitelist.config;
+package org.humki.ipwhitelist.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

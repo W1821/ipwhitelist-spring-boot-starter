@@ -1,9 +1,9 @@
-package org.leesin.ipwhitelist.autoconfigure;
+package org.humki.ipwhitelist.autoconfigure;
 
 import lombok.extern.slf4j.Slf4j;
-import org.leesin.ipwhitelist.config.IpWhitelistConfig;
-import org.leesin.ipwhitelist.configurer.IpWhitelistWebMvcConfigurer;
-import org.leesin.ipwhitelist.interceptor.IpWhitelistInterceptor;
+import org.humki.ipwhitelist.config.IpWhitelistConfig;
+import org.humki.ipwhitelist.interceptor.IpWhitelistInterceptor;
+import org.humki.ipwhitelist.configurer.IpWhitelistWebMvcConfigurer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

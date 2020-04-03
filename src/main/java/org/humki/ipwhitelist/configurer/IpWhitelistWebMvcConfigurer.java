@@ -1,7 +1,7 @@
-package org.leesin.ipwhitelist.configurer;
+package org.humki.ipwhitelist.configurer;
 
-import org.leesin.ipwhitelist.config.IpWhitelistConfig;
-import org.leesin.ipwhitelist.interceptor.IpWhitelistInterceptor;
+import org.humki.ipwhitelist.config.IpWhitelistConfig;
+import org.humki.ipwhitelist.interceptor.IpWhitelistInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistration;

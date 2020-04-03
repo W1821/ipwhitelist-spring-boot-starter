@@ -1,4 +1,4 @@
-package org.leesin.ipwhitelist.util;
+package org.humki.ipwhitelist.util;
 
 import lombok.extern.slf4j.Slf4j;
 

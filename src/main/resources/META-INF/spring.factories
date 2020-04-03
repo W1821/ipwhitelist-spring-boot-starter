@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-    org.leesin.ipwhitelist.autoconfigure.IpWhitelistAutoConfigure
+    org.humki.ipwhitelist.autoconfigure.IpWhitelistAutoConfigure
